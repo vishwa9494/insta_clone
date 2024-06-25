@@ -1,0 +1,117 @@
+.FeedContainer{
+    flex: 6;
+     height: calc(100vh - 50px);
+ 
+    overflow-y: scroll;
+}
+.Imagestop{
+    width: 90%;
+    
+    margin: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow:0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+    
+}
+
+img{
+    
+    object-fit: contain;
+    width: 100%;
+
+
+}
+.share{
+    width: 90%;
+ height: 140px;
+ margin: 10px;
+ border-radius: 10px;
+ -webkit-box-shadow:0px 0px 16px -8px rgba(0,0,0,0.68);
+ box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+ padding: 10px;
+ margin-right: 20px;
+ position: sticky;
+}
+.user{
+    margin-left: 10px;
+
+}
+.user{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  
+}
+.user1{
+    font-size: 40px;
+    
+}
+.input input{
+    margin-left: 10px;
+    border: none;
+
+    height: 20px;
+    font-size: 16px;
+
+
+}
+.input input:focus{
+    outline: none;
+}
+.shareicons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icn {
+    font-size: 35px;
+    cursor: pointer;
+    
+}
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+}
+.vi {
+    margin-left: 15px;
+    font-size: large;
+    display: inline-block;
+    transform: translateY(-10px);
+}
+.icn1{
+    cursor:not-allowed;
+}
+.desc{
+    margin: 15px 0 15px 15px;
+    display: block;
+}
+.likecomment{
+    display: flex;
+    justify-content: space-between;
+}
+.comm{
+    padding: 10px;
+}
+.commhead{
+    color: red;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    margin-bottom: 8px;
+}
+.photos{
+    cursor: pointer;
+}
+.likes span{
+    cursor: pointer;
+}
